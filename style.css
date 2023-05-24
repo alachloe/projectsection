@@ -1,0 +1,34 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+
+
+.circle-logo {
+    width: 180%;
+    padding: 40px;
+    
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-right: 0,5rem;
+}
+
+h1 { font-size: 3.5rem;}
+h2 { font-size: 2.5rem;}
+li {font-size: 1.5rem;}
+.Image-principal{
+    position:relative;
+}
+#img-back {
+    object-fit: cover;
+    width: 50%;
+    float: right;
+}
+
+.images {display: flex;}
+
+#Pub {width: 640px;
+overflow: auto;}
