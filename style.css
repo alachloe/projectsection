@@ -32,3 +32,15 @@ li {font-size: 1.5rem;}
 
 #Pub {width: 640px;
 overflow: auto;}
+
+#img-back {
+    object-fit: cover;
+    width: 50%;
+    height: 300px;
+    padding-top: 10vh;
+}
+.center-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
