@@ -1,19 +1,31 @@
 @import url(https://fonts.google.com/specimen/Roboto);
 
 
-
 .circle-logo {
-    width: 180%;
-    padding: 40px;
+    width: 50%;
+    padding: 50px;
     
 }
 
 nav ul {
-list-style: none;
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-right: 0,5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;   
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2 px;
+    cursor: pointer;
 }
 
 h1 { font-size: 3.5rem;}
@@ -30,15 +42,10 @@ li {font-size: 1.5rem;}
 
 .images {display: flex;}
 
-#Pub {width: 640px;
+#Pub {width: 140px;
 overflow: auto;}
 
-#img-back {
-    object-fit: cover;
-    width: 50%;
-    height: 300px;
-    padding-top: 10vh;
-}
+
 .center-title {
     text-align: center;
     font-size: 4rem;
