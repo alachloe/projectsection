@@ -1,53 +1,394 @@
-@import url(https://fonts.google.com/specimen/Roboto);
-
-
-.circle-logo {
-    width: 50%;
-    padding: 50px;
-    
-}
-
-nav ul {
+html{
+    scroll-behavior: auto;
+  }
+  
+  body {
+    font-family: "Roboto";
+    background-color:white;
+  }
+  
+  .nav-cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 50px 150px;
+    align-items: center;
+  }
+  
+  .nav-cont-ul {
+    display: flex;
     list-style: none;
+    gap: 50px;
+    color: grey;
+  }
+
+  .nav-cont a {
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .nav-contact-us {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+  }
+ 
+  .Empower-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin: 20px 150px 20px 150px;
+  }
+  
+  .Empower-section-text {
+    width: 500px;
+    position: relative;
+  }
+  .Empower-section-text h1 {
+    color: #3a4165;
+  }
+  
+  .Empower-section-text p {
+    color: grey;
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 60px;
+  }
+
+  .color-back-less {
+    text-decoration: none;
+    font-weight: 500;
+    color: #072ac8;
+  }
+  
+  .color-back {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .color-back:hover {
+    background-color: #22358c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .img {
+    position: relative;
+  }
+  
+  .img-card1 {
+    height: 270px;
+    position: absolute;
+    left: -40px;
+  }
+  .img-card2 {
+    height: 250px;
+    position: absolute;
+    bottom: -80px;
+    left: 300px;
+  }
+  
+  .img-hero {
+    height: 500px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar {
+    margin: 0px 14 px;
+  }
+  .clients {
+    width: 1100px;
+    height: 96px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .client div {
+    width: 150 px;
+    text-align: center;
+  }
+
+
+.projects-section {
+    padding: 100px 200px 100px 200px;
+  }
+  
+  .projects-section h3 {
+    padding-bottom: 60px;
+    color: #292e47;
+  }
+  
+  .projects-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .project img {
+    width: 300px;
+    box-sizing: content-box;
+    width: 100%;
+  }
+  
+  .project a {
+    padding: 50px 0px 40px 20px;
+    color: #072ac8;
+    text-decoration: none;
+  }
+  
+  .project-cont-text {
+    padding: 20px;
+    color: #292E47
+  }
+
+  .review-section {
+    background-color: #3b4680;
+    background-image: url(https://github.com/dzc1/amazon-class01-apr23/blob/main/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/testimonial-section/orbit.png?raw=true);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 100px 150px 100px 150px;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  .review-emoticons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 1rem;   
-}
-
-.button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px 20px;
+  }
+  
+  .review-emoticons-1-2 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-left: 80px;
+  }
+  
+  .review-emoticons-3-4 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-right: 80px;
+  }
+  
+  .review-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .review-text h3 {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2 px;
+    color: white;
+    font-size: 35px;
+  }
+  
+  .review-text h4 {
+    text-align: center;
+    color: yellow;
+    font-weight: 400;
+  }
+  
+  .profilimg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profilimg h5 {
+    color: #7da4be;
+    font-weight: 400;
+    
+  }
+  
+  .profilimg h6 {
+    color: white;
+    font-weight: 200;
+  }
+  
+  .profilimg img{
+    width: 50px;
+    clip-path: circle(200px at 50% 50%);
+  }
+
+  .scroll-top-btn{
+    position: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 999;
+    bottom: 1vh;
+    right: 1vh;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
     cursor: pointer;
-}
-
-h1 { font-size: 3.5rem;}
-h2 { font-size: 2.5rem;}
-li {font-size: 1.5rem;}
-.Image-principal{
-    position:relative;
-}
-#img-back {
-    object-fit: cover;
-    width: 50%;
-    float: right;
-}
-
-.images {display: flex;}
-
-#Pub {width: 140px;
-overflow: auto;}
-
-
-.center-title {
+    transition: all .2s ease-out;
+    color: #292E47;
+  }
+  
+  
+  .scroll-top-btn:hover{
+    position: fixed;
+    z-index: 999;
+    bottom: 1vh;
+    right: 1vh;
+    width: 3.2rem;
+    height: 3.2rem;
+    box-shadow: #43475a87 1px 3px 4px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: none;
+    color: white;
+  }
+  
+  .hidden{
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  
+  .services-tittle{
+    margin-bottom: 10%;
+    text-align: center;    
+    font-size: 1.5rem;
+    color :#292E47;
+  }
+  
+  .services-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1% 5% 4% 5%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+  }
+  
+  .services-container-img {
+    padding: 5%;
+    margin: 7%;
+    border-radius: 50%;
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .services-container h4 {
+    width: 90%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    font-size: 1rem;
+  }
+  
+  .services-container p {
+    width: 80%;
+    margin-bottom: 7%;
+    margin-left: 5%;
+  }
+  
+  .services-container a {
+    color: blue;
+    margin-left: 5%;
+  }
+  
+  
+  .question {
+    background-color: yellow;
+    margin: 100px 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 0px 100px 0px;
+    color: #1a2249
+  }
+  
+  .question-section h3 {
     text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
-}
+  }
+  
+  .question-input-button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .question-input {
+    border: 0px;
+    height: 40px;
+    width: 400px;
+    background-image: url(https://raw.githubusercontent.com/dzc1/amazon-class01-apr23/eb3971df7512e38773a684940962c0305829df6f/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/newsletter/icon/mail.svg);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 40px;  
+  }
+    
+  .footer{
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;   
+  }
+  .footer img{
+    padding: 5% 5% 5% 0%;    
+  }
+  .footer-left-side{
+    width : 60%;
+  }
+  .company-address{   
+    font-family: 'Roboto';
+    font-size: 0.7rem;
+    min-width: fit-content;
+    padding-bottom: 4%;
+  }   
+  
+  .footer-right-side{
+    width: 40%;
+    flex-direction: column;
+  }
+  
+  
