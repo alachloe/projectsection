@@ -125,27 +125,36 @@ html{
   .navbar {
     margin: 0px 14 px;
   }
-  .clients {
-    width: 1100px;
-    height: 96px;
+
+  #brands {
+    margin: 2.5rem 0;
+  }
+  #brands .brands-logo {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  #brands .brands-logo a {
+    width: 20%;
+    display: block;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
-
-  .client div {
-    width: 150 px;
-    text-align: center;
+  
+  #brands .brands-logo a:nth-of-type(-n + 4) img {
+    width: 20%;
   }
-
 
 .projects-section {
     padding: 100px 200px 100px 200px;
   }
   
   .projects-section h3 {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     color: #292e47;
+    text-decoration: none;
   }
   
   .projects-flex-container {
@@ -162,7 +171,7 @@ html{
   }
   
   .project img {
-    width: 300px;
+    width: 200px;
     box-sizing: content-box;
     width: 100%;
   }
@@ -174,7 +183,7 @@ html{
   }
   
   .project-cont-text {
-    padding: 20px;
+    padding: 30px;
     color: #292E47
   }
 
@@ -230,7 +239,7 @@ html{
     font-weight: 400;
   }
   
-  .profilimg {
+  profilimg {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -252,89 +261,47 @@ html{
     clip-path: circle(200px at 50% 50%);
   }
 
-  .scroll-top-btn{
-    position: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 999;
-    bottom: 1vh;
-    right: 1vh;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    transition: all .2s ease-out;
-    color: #292E47;
+  
+  .services-section {
+    margin: 100px 200px 100px 200px;
   }
   
-  
-  .scroll-top-btn:hover{
-    position: fixed;
-    z-index: 999;
-    bottom: 1vh;
-    right: 1vh;
-    width: 3.2rem;
-    height: 3.2rem;
-    box-shadow: #43475a87 1px 3px 4px;
-    border-radius: 50%;
-    background-color: yellow;
-    border: none;
-    color: white;
+  .services-section h3 {
+    padding-bottom: 60px;
+    color: #292E47
   }
   
-  .hidden{
-    visibility: hidden;
-    opacity: 0;
+  .services-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    height: 300px;
   }
   
-  
-  .services-tittle{
-    margin-bottom: 10%;
-    text-align: center;    
-    font-size: 1.5rem;
-    color :#292E47;
-  }
-  
-  .services-container{
-    width: 60%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1% 5% 4% 5%;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 20px;
-  }
-  
-  .services-container-img {
-    padding: 5%;
-    margin: 7%;
-    border-radius: 50%;
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
-    width: 3rem;
-    height: 3rem;
+    padding: 20px 20px 20px 20px;
+    color: #292E47
   }
   
-  .services-container h4 {
-    width: 90%;
-    margin-bottom: 6%;
-    margin-left: 5%;
-    font-size: 1rem;
+  .services img {
+    background-color: #ecf7ff;
+    border-radius: 100px;
+    width: 50px;
+    padding: 10px;
+    
   }
   
-  .services-container p {
-    width: 80%;
-    margin-bottom: 7%;
-    margin-left: 5%;
-  }
-  
-  .services-container a {
+  .services a {
+    text-decoration: none;
     color: blue;
-    margin-left: 5%;
   }
   
   
-  .question {
+  .question-section {
     background-color: yellow;
     margin: 100px 150px 100px 150px;
     display: flex;
@@ -342,15 +309,23 @@ html{
     align-items: center;
     gap: 30px;
     padding: 100px 0px 100px 0px;
-    color: #1a2249
+    color: #292E47
   }
   
   .question-section h3 {
     text-align: center;
   }
   
-  .question-input-button {
-    background-color: blue;
+  .question-input button {
+    background-color: #072ac8;
+    color: white;
+    text-decoration: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+  }
+  .question-input button:hover {
+    background-color: #062199;
     color: white;
     text-decoration: none;
     border: none;
@@ -358,7 +333,7 @@ html{
     height: 40px;
   }
   
-  .question-input {
+  .question-input input {
     border: 0px;
     height: 40px;
     width: 400px;
@@ -367,28 +342,32 @@ html{
     background-position: 5px;
     padding-left: 40px;  
   }
-    
-  .footer{
-    margin-top: 3%;
-    justify-content: space-between;
-    align-items: center;   
-  }
-  .footer img{
-    padding: 5% 5% 5% 0%;    
-  }
-  .footer-left-side{
-    width : 60%;
-  }
-  .company-address{   
-    font-family: 'Roboto';
-    font-size: 0.7rem;
-    min-width: fit-content;
-    padding-bottom: 4%;
-  }   
   
-  .footer-right-side{
-    width: 40%;
-    flex-direction: column;
+  .footer {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin: 100px 200px 100px 200px;
+    color: #4c5581
   }
   
+  .footer-logo {
+    padding-bottom: 10px;
+  }
+  
+  .footer-tabl {
+    display: grid;
+    grid-template-columns: 120px 120px 100px;
+    gap: 30px;
+  }
+  .footer-tabl a {
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+  }
+  .footer-tabl a:hover {
+    font-size: 15px;
+    text-decoration: none;
+    color: #5c6594
+  }
   
