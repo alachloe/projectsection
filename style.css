@@ -24,6 +24,7 @@ html{
   .nav-cont a {
     text-decoration: none;
     font-size: 15px;
+    color: gray;
   }
   
   .nav-contact-us {
