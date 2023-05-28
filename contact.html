@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav id="nav" class="nav-cont">
+        <img
+        src="https://raw.githubusercontent.com/dzc1/amazon-class01-apr23/eb3971df7512e38773a684940962c0305829df6f/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/logos/circle.svg" alt="logo">
+      </a>
+      <ul class="nav-cont-ul">
+        <li><a href="#Home">Home</a></li>
+        <li> <a href="#Project">Project</a></li>
+        <li> <a href="#Projectpage-simple">Project page - simple</a></li>
+        <li> <a href="#Services">Services</a></li>
+        <li> <a href="#about">About</a></li>
+        </ul>
+        <a class="nav-contact-us" href="button">Contact Us</a>
+        </nav>
+
+    </section>
+      <section id="section1">
+      <div id="form">
+        <h1 id="contactus">Contact Us</h1><br><br>
+        <div class="name">
+            <form action="enviar.php" method="POST">
+            <label class="labelform" for="nombre">Full Name *</label><br>
+            <input id="name" type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        </div>
+        <div class="divinfo">
+            <div class="divEmail">
+            <label class="labelform" for="email">Email </label><br>
+            <input id="email" type="email" id="email" name="email" placeholder="Enter your email    " required><br><br>
+        </div>
+        <div class="divPhone">
+            <label class="labelform" for="phone">Phone </label><br>
+            <input id="phone" type="number"  name="phone" placeholder="Enter your phone"required><br><br>
+        </div>
+        </div>
+        <div class="Message">
+            <label class="labelform" for="message">Message *</label><br>
+            <textarea
+            placeholder="Write your message here..."
+            maxlength="10000" id="mensaje" required=""
+          ></textarea><br><br>
+        </div> 
+        <input id="submit" type="submit" value="Submit">
+        </form>
+        <footer class="footer">
+            <div class="footer-logo">
+              <img
+              src="https://raw.githubusercontent.com/dzc1/amazon-class01-apr23/eb3971df7512e38773a684940962c0305829df6f/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/logos/circle.svg" alt="circlelogo"
+              />
+              <p>
+                2972 Westheimer Rd. Santa Ana, Illinois 85486
+              </p>
+            </div>
+            <div class="footer-tabl">
+              <a href="">Team</a>
+              <a href="#services">Services</a>
+              <a href="">About Us</a>
+              <a href="">Press</a>
+              <a href="#projects">Projects</a>
+              <a href="">Privacy Policy</a>
+            </div>
+          </footer>
+          
+      </div>
+      </section>
+</body>
+</html>
