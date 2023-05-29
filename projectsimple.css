@@ -1,136 +1,162 @@
 .nav-cont {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 150px 50px 150px;
-    align-items: center;
-  }
-  
-  .nav-cont-ul {
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    color: grey;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px 50px 150px;
+  align-items: center;
+}
 
-  .nav-cont a {
-    text-decoration: none;
-    font-size: 15px;
-    color: gray;
-  }
-  
-  .nav-contact-us {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-  }
+.nav-cont-ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  color: grey;
+}
+
+.nav-cont a {
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+}
+
+.nav-contact-us {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+
+.img-principal img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 400px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.img-principal {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 150px 100px 150px;
+}
+
+.img-principal h1 {
+  font-size: 4rem;
+  color: grey;
+}
+
+.img-principal p {
+  font-size: 20px;
+  line-height: 30px;
+  color: grey;
+}
+
+.projects-section {
+  padding: 100px 200px 100px 200px;
+}
+
+.projects-section h3 {
+  padding-bottom: 50px;
+  color: #292e47;
+  text-decoration: none;
+}
+
+.projects-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.project img {
+  width: 200px;
+  box-sizing: content-box;
+  width: 100%;
+}
 
 
-  .projects-section {
-    padding: 100px 200px 100px 200px;
-  }
-  
-  .projects-section h3 {
-    padding-bottom: 50px;
-    color: #292e47;
-    text-decoration: none;
-  }
-  
-  .projects-flex-container {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-  }
-  
-  .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
-  }
-  
-  .project img {
-    width: 200px;
-    box-sizing: content-box;
-    width: 100%;
-  }
-  
-  .project a {
-    padding: 50px 0px 40px 20px;
-    color: #072ac8;
-    text-decoration: none;
-  }
-  
-  .project-cont-text {
-    padding: 30px;
-    color: #292E47
-  }
+.project a {
+  padding: 50px 0px 40px 20px;
+  color: #072ac8;
+  text-decoration: none;
+}
 
-  .question-section {
-    background-color: yellow;
-    margin: 100px 150px 100px 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    padding: 100px 0px 100px 0px;
-    color: #292E47
-  }
-  
-  .question-section h3 {
-    text-align: center;
-  }
-  
-  .question-input button {
-    background-color: #072ac8;
-    color: white;
-    text-decoration: none;
-    border: none;
-    width: 100px;
-    height: 40px;
-  }
-  .question-input button:hover {
-    background-color: #062199;
-    color: white;
-    text-decoration: none;
-    border: none;
-    width: 100px;
-    height: 40px;
-  }
-  
-  .question-input input {
-    border: 0px;
-    height: 40px;
-    width: 400px;
-    background-image: url(https://raw.githubusercontent.com/dzc1/amazon-class01-apr23/eb3971df7512e38773a684940962c0305829df6f/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/newsletter/icon/mail.svg);
-    background-repeat: no-repeat;
-    background-position: 5px;
-    padding-left: 40px;  
-  }
+.project-cont-text {
+  padding: 30px;
+  color: #292E47
+}
 
-  .footer {
-    display: flex;
-    justify-content: center;
-    gap: 400px;
-    margin: 100px 200px 100px 200px;
-    color: #4c5581
-  }
-  
-  .footer-logo {
-    padding-bottom: 10px;
-  }
-  
-  .footer-tabl {
-    display: grid;
-    grid-template-columns: 100px 100px 80px;
-    gap: 30px;
-  }
-  .footer-tabl a {
-    font-size: 15px;
-    text-decoration: none;
-    color: blue;
-  }
-  .footer-tabl a:hover {
-    font-size: 15px;
-    text-decoration: none;
-    color: #5c6594
-  }
+.question-section {
+  background-color: yellow;
+  margin: 100px 150px 100px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 0px 100px 0px;
+  color: #292E47
+}
+
+.question-section h3 {
+  text-align: center;
+}
+
+.question-input button {
+  background-color: #072ac8;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+.question-input button:hover {
+  background-color: #062199;
+  color: white;
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.question-input input {
+  border: 0px;
+  height: 40px;
+  width: 400px;
+  background-image: url(https://raw.githubusercontent.com/dzc1/amazon-class01-apr23/eb3971df7512e38773a684940962c0305829df6f/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/newsletter/icon/mail.svg);
+  background-repeat: no-repeat;
+  background-position: 5px;
+  padding-left: 40px;  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  margin: 100px 200px 100px 200px;
+  color: #4c5581
+}
+
+.footer-logo {
+  padding-bottom: 10px;
+}
+
+.footer-tabl {
+  display: grid;
+  grid-template-columns: 100px 100px 80px;
+  gap: 30px;
+}
+.footer-tabl a {
+  font-size: 15px;
+  text-decoration: none;
+  color: blue;
+}
+.footer-tabl a:hover {
+  font-size: 15px;
+  text-decoration: none;
+  color: #5c6594
+}

@@ -1,94 +1,65 @@
 html{
-    scroll-behavior: auto;
-  }
-  
-  body {
-    font-family: "Roboto";
-    background-color:white;
-  }
-  
-  .nav-cont {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 150px 50px 150px;
-    align-items: center;
-  }
-  
-  .nav-cont-ul {
-    display: flex;
-    list-style: none;
-    gap: 50px;
-    color: grey;
-  }
+  scroll-behavior: auto;
+}
 
-  .nav-cont a {
-    text-decoration: none;
-    font-size: 15px;
-    color: gray;
-  }
-  
-  .nav-contact-us {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-  }
- 
-  .Empower-section {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-    margin: 20px 150px 20px 150px;
-  }
-  
-  .Empower-section-text {
-    width: 500px;
-    position: relative;
-  }
-  .Empower-section-text h1 {
-    color: #3a4165;
-  }
-  
-  .Empower-section-text p {
-    color: grey;
-    padding-top: 30px;
-    font-size: 20px;
-  }
-  
-  .header-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding-top: 60px;
-  }
-
-  .color-back-less {
-    text-decoration: none;
-    font-weight: 500;
-    color: #072ac8;
-  }
-  
-  .color-back {
-    background-color: grey;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
-  
-  .color-back:hover {
-    background-color: #22358c;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
+body {
+  font-family: "Roboto";
+  background-color:white;
+}
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px 50px 150px;
+  align-items: center;
+}
+.nav-cont-ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  color: grey;
+}
+.nav-cont a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.nav-contact-us {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+.Empower-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  margin: 20px 150px 20px 150px;
+}
+.Empower-section-text {
+  width: 500px;
+  position: relative;
+}
+.Empower-section-text h1 {
+  color: #3A4165;
+}
+.Empower-section-text p {
+  color: grey;
+  padding-top: 30px;
+  font-size: 20px;
+}
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 60px;
+}
   
   .img {
     position: relative;
   }
   
   .img-card1 {
-    height: 270px;
+    height: 250px;
     position: absolute;
     left: -40px;
   }
@@ -130,6 +101,7 @@ html{
   #brands {
     margin: 2.5rem 0;
   }
+
   #brands .brands-logo {
     display: flex;
     flex-wrap: wrap;
@@ -190,7 +162,7 @@ html{
 
   .review-section {
     background-color: #3b4680;
-    background-image: url(https://github.com/dzc1/amazon-class01-apr23/blob/main/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/testimonial-section/orbit.png?raw=true);
+    background-image: url('https://github.com/dzc1/amazon-class01-apr23/blob/main/boiler-plates/midterm-boiler-plates/midterm-project-boiler/resources/images/testimonial-section/orbit.png?raw=true');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
