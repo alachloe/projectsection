@@ -28,11 +28,13 @@ Really happy because is not exactly as the example, but for the first time is no
 
 I will create the form contact 
 and the CSS related to the form contact 
+I din't get any big issue it was the most easy page to create
 
 // Day six 
 
-I will made the project simple page and the css related 
+I have made the project page, i was stuck with the first image because it was really big and i wan't able to reduce the picture but with time i finally manage to set the picture correcty
+The page is not exactly igual but is ok i will come back to edit it after my javascript
 
 // Day seven 
 
-I will work on javascript
+I want to start javascript its really hard i was looking the lesson we had and also some information on google i get some help from chat gpt to get a code but is really hard to execute 
