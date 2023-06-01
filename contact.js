@@ -4,7 +4,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   const formData = new FormData(form);
   
-  fetch('https://github.com/alachloe/projectsection/blob/main/contact.html'
+  fetch('https://jsonplaceholder.typicode.com/posts'
   , {
     method: 'POST',
     body: formData
