@@ -38,3 +38,10 @@ The page is not exactly igual but is ok i will come back to edit it after my jav
 // Day seven 
 
 I want to start javascript its really hard i was looking the lesson we had and also some information on google i get some help from chat gpt to get a code but is really hard to execute 
+
+// Last day
+
+I finish my first project 
+I also finsih my presentacion 
+
+ALL is ready 
