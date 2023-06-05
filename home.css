@@ -131,6 +131,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease;
+    filter: none;
   }
   
   #brands .brands-logo a:nth-of-type(-n + 4) img {
@@ -138,19 +140,19 @@ body {
   }
 
 .projects-section {
-    padding: 100px 200px 100px 200px;
+    padding: 100px 170px 100px 170px;
   }
   
   .projects-section h3 {
     padding-bottom: 50px;
     color: #292e47;
-    text-decoration: none;
   }
   
   .projects-flex-container {
     display: flex;
     justify-content: center;
     gap: 25px;
+    
   }
   
   .project {
@@ -161,19 +163,18 @@ body {
   }
   
   .project img {
-    width: 200px;
+    width: 360px;
     box-sizing: content-box;
-    width: 100%;
   }
   
   .project a {
     padding: 50px 0px 40px 20px;
-    color: #072ac8;
+    color: #0623a5;
     text-decoration: none;
   }
   
   .project-cont-text {
-    padding: 30px;
+    padding: 20px;
     color: #292E47
   }
 
@@ -361,3 +362,34 @@ body {
     color: #5c6594
   }
   
+  .scroll-top-btn {
+    position: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 999;
+    bottom: 2vh;
+    right: 2vh;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #0c076a;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+    color: #40486e;
+  }
+  
+  #scrollTopTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9000;
+    font-size: 18px;
+    width: 500px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
